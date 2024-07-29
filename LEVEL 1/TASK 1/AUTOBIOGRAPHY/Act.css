@@ -1,0 +1,51 @@
+body{
+    background-image: url(actibg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    color:rgb(236, 230, 160);
+    font-size: 400%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 5px #7a3b93;
+}
+h1:hover {
+    color: rgb(178, 4, 33);
+    cursor: auto;
+
+}
+.contacts{
+    color:rgb(210, 151, 255);
+    font-size: 300%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #fa5454;
+  }
+  .active {
+    background-color: #FFFAC5;
+  }

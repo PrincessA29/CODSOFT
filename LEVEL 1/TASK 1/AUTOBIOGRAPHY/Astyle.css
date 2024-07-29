@@ -1,0 +1,116 @@
+body{
+  background-image: url(actbgg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+    color:rgb(210, 151, 255);
+    font-size: 300%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 5px black;
+}
+h1:hover {
+  color: #f88383;
+  cursor: pointer;
+}
+
+.top-centered {
+    color:mintcream;
+    font-size:200%;
+    font-family:cursive;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(182, 216, 255);
+    font-size: 110%;
+  }
+
+h2 {
+    color:rgb(255, 255, 255);
+    font-size:200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  div.gallery {
+    margin: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 20px solid #070606;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  div.desc {
+    color: black;
+    text-align: left;
+    transition: width 2s;
+    background-color: rgb(161, 131, 210);
+    width: 183px;
+    height: 293px;
+    border: 2px solid black;
+    font-size: 70%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 0%;
+    padding-bottom: 30%;
+    padding-left: 5%;
+    padding-right: 20%
+  }
+  
+  .btn{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1.0rem 1.0rem;
+    background: rgb(139, 191, 255);
+    font-size: 13px;
+    text-decoration:burlywood;
+    color: black;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 20px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f88383;
+}
+.active {
+  background-color: #FFFAC5;
+}
