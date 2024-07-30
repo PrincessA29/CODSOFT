@@ -1,28 +1,28 @@
 body{ 
-    background-image: url(paradisehpage.jpg);
+    background-image: url(homepage.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 h1{
-    color:rgb(236, 230, 160);
+    color:#863a26;
     font-size: 400%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
     text-shadow: 2px 2px 5px #9E9BF9;
 }
 .centered {
-    position: relative;
+    position: center;
     text-align: center;
-    color: rgb(255, 253, 247);
+    color: #6d3121;
     font-size: 100%;
     display: inline-block;
     border: 2px solid black;
     padding: 1.0rem 1.0rem;
-    border-radius: 20px;
+    border-radius: 50px;
     transition: background 0.5s;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px rgb(255, 251, 251);
   }
 
   .btn{
@@ -62,7 +62,7 @@ h1{
   }
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #f47979;
+    background-color: #a84626;
   }
   .active {
     background-color: #FFFAC5;
